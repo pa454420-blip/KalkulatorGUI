@@ -10,22 +10,27 @@ public class KalkulatorGUI extends JFrame {
     private boolean operatorBaru = true;
 
     public KalkulatorGUI() {
-        setTitle("Kalkulator Sederhana");
+        setTitle("Kalkulator Putri Ayu");
         setSize(300, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         
         JPanel panelUtama = new JPanel(new BorderLayout(5, 5));
         panelUtama.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        panelUtama.setBackground(Color.BLACK);
 
         display = new JTextField("0");
-        display.setFont(new Font("SansSerif", Font.BOLD, 24));
+        display.setFont(new Font("Timesnewroman", Font.BOLD, 24));
+        display.setBackground(new Color(0, 153, 76));  
         display.setHorizontalAlignment(JTextField.RIGHT);
         display.setEditable(false);
+        display.setForeground(Color.WHITE);            
+        display.setCaretColor(Color.WHITE);
         panelUtama.add(display, BorderLayout.NORTH);
 
        
         JPanel panelTombol = new JPanel(new GridLayout(4, 4, 5, 5));
+        panelTombol.setBackground(Color.BLACK);
 
         String[] label = {
             "7", "8", "9", "/",
