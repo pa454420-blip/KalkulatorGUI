@@ -45,7 +45,7 @@ public class KalkulatorGUI extends JFrame {
         for (String teks : label) {
             
             JButton tombol = new JButton(teks);
-            tombol.setFont(new Font("SansSerif", Font.BOLD, 18));
+            tombol.setFont(new Font("Timesnewroman", Font.BOLD, 18));
             tombol.addActionListener(handler);
             panelTombol.add(tombol);
         }
