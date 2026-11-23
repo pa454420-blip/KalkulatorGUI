@@ -1,6 +1,6 @@
 # KalkulatorGUI
 
-Kalkulator sederhana berbasis GUI menggunakan Java Swing, dibuat untuk tugas latihan eksplorasi GUI mata kuliah Pemrograman Berorientasi Objek (PBO).
+Kalkulator sederhana berbasis GUI menggunakan Java, dibuat untuk tugas latihan eksplorasi GUI mata kuliah Pemrograman Berorientasi Objek (PBO).
 
 ## Cara Menjalankan
 
